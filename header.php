@@ -12,6 +12,17 @@ session_start();
 
     <script src='tinymce/tinymce.min.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.19.1/ui/trumbowyg.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="assets/calender/style.css">
+<link rel="stylesheet" type="text/css" href="assets/calender/theme.css">
+
+
+    <style type="text/css">
+        .clearfix {
+              overflow: auto;
+            }
+    </style>
 </head>
 <body>
 

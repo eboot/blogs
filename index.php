@@ -33,6 +33,8 @@ $result = DbArtikel($dbcon,$limit,$rowsperpage);
 if (!$result || mysqli_num_rows($result) == 0) {
     echo '<div class="w3-panel w3-pale-red w3-card-2 w3-border w3-round">Belum ada artikel</div>';
 }
+echo "<div class='w3-row w3-panel'>";
+echo "<div class='w3-col l8 w3-cente'>";
 while ($row = mysqli_fetch_assoc($result)) {
 
     $id = htmlentities($row['id']);
@@ -52,8 +54,20 @@ while ($row = mysqli_fetch_assoc($result)) {
     echo "<div class='w3-text-grey'> $wkt </div>";
     echo '</div>';
 }
+echo '</div>'; // end w3-col l9
+echo '<div class="clearfix"></div>';
+echo '<div class="w3-col l3 s6 w3-center" style="margin: 0px 50px;">';
+
+include "widget.php";
+
+?>
 
 
+
+<?php
+echo '</div>'; // end w3-col l3
+
+echo '</div>';
 echo "<div class='w3-bar w3-center'>";
 
 if ($page > 1) {
