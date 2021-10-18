@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
 <input type="file" class="w3-input w3-border" name="image[]" required/>
 <br>
 
-<textarea id="description" row="30" cols="50" class="w3-input w3-border" name="description" required/></textarea>
+<textarea id="basic-example" row="30" cols="50" class="w3-input w3-border" name="description" required/></textarea>
 <br>
 
 <input type="submit" class="w3-btn w3-teal w3-round" name="submit" value="Post">

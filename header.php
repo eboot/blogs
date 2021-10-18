@@ -11,6 +11,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <script src='tinymce/tinymce.min.js'></script>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.19.1/ui/trumbowyg.min.css">
 
 
